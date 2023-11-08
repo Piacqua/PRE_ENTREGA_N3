@@ -21,12 +21,12 @@
 
 	PASO 1
 		--- DESCARGAR LOS REQUERIMIENTOS ---
-		- Ubicarse en la carpeta contenedora de "requeriments.txt" > [C:..\PRE_ENTREGA_N3\]
+		- Ubicarse en la carpeta contenedora de "requeriments.txt" > [..\PRE_ENTREGA_N3\]
 		$ pip install -r requeriments.txt
 
 	PASO 2
 		--- INICIAR SERVIDOR ---
-		- Ubicarse en la carpeta contenedora de "manage.py" > [C:..\PRE_ENTREGA_N3\entorno\pre_entrega_n3]
+		- Ubicarse en la carpeta contenedora de "manage.py" > [..\PRE_ENTREGA_N3\entorno\pre_entrega_n3]
 		$ python manage.py runserver
 
 -------------------------------------
