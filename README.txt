@@ -17,7 +17,7 @@
 
 	PASO 0
 		--- DESCARGAR EL REPOSITORIO ---
-		$ git clone [link del repositorio]
+		$ git clone https://github.com/Piacqua/PRE_ENTREGA_N3.git
 
 	PASO 1
 		--- DESCARGAR LOS REQUERIMIENTOS ---
