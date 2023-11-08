@@ -11,6 +11,8 @@
 	la cual filtra resultados en base a lo ingresado por el
 	usuario. 
 
+-------------------------------------
+
  INSTALACION
 
 	PASO 0
