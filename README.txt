@@ -7,9 +7,9 @@
 	La misma cumple diversas funcionalidades como:
 	permitir que el usuario se registre como boxeador,
 	entrenador o árbitro; mostrar los registros de cada tipo
-	(boxeador, entrenador o arbitro); y una funcion de busqueda,
-	la cual filtra resultados en base a lo ingresado por el
-	usuario. 
+	(boxeador, entrenador o árbitro); y una función de búsqueda,
+	la cual filtra resultados en base a los criterios del
+	usuario.
 
 -------------------------------------
 
