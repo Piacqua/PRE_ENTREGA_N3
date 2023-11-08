@@ -1,0 +1,38 @@
+{% extends "index.html" %}
+
+{% block title %}Arbitros{% endblock %}
+
+{% block content %}
+<h1>Arbitros</h1>
+<h4>Aquí puedes encontrar información sobre nuestros arbitros</h4>
+<a href="{% url 'registrate-arbitro' %}">Registrate como arbitro aquí</a>
+<p></p>
+<a href="{% url 'nuestros-arbitros' %}">Ver todos</a>
+<p></p>
+<form action="{% url 'busqueda-arbitro' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="busqueda">
+    <input type="submit" value="Buscar">
+</form>
+<br>
+<ul>
+    <p></p>
+    <ul>
+        {%for arbitro in total_arbitros %}
+        <li>
+            <div class="col-lg-6 col-xxl-4 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                class="bi bi-card-heading"></i></div>
+                        <h2 class="fs-4 fw-bold">NOMBRE= {{arbitro.nombre}}</h2>
+                        <p class="mb-0">EDAD= {{arbitro.edad}} años</p>
+                        <p class="mb-0">EXPERIENCIA= {{arbitro.experiencia}}</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        {%endfor%}
+    </ul>
+    <p></p>
+    {% endblock %}

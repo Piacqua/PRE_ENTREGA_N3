@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+
+{% block content %}
+<h2>Registro de Boxeadores</h2>
+<form method="post">
+    {% csrf_token %}
+    <p></p>
+    {{ formulario.as_p }}
+    <input class="btn btn-success" type="submit" value="Enviar Información" />
+</form>
+<br>
+<a href="{% url 'nuestros-boxeadores' %}">Volver a la lista de Boxeadores</a>
+<p></p>
+{% endblock %}
